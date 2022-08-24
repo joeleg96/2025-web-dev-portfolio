@@ -70,6 +70,7 @@ strong {
 .btn {
     display: inline-block;
     padding: .5em 2.5em;
+    margin-right: 10px;
     background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
@@ -316,7 +317,7 @@ header {
 }
 
 .services {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 }
 
 .service {
