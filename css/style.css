@@ -338,6 +338,38 @@ header {
     }
 }
 
+.btn__mywork {
+    display: inline-block;
+    padding: .5em 2.5em;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: 15px;
+    
+    
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+}
+
+.btn__mywork:hover {
+    transform: scale(1.1);
+}
+
+@media (min-width: 800px) {
+    .btn__mywork {
+        display: inline-block;
+        padding: .5em 2.5em;
+        align-self: center;
+        
+    }
+}
+
 /*About Me */
 
 .about-me {
