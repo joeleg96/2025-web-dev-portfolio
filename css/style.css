@@ -435,6 +435,42 @@ header {
      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.portfolio__img {
+    width: 300px;
+    height: 200px;
+
+    border-radius: 8px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 50px;
+    margin-bottom: 10px;
+    /* margin-left: calc((100%-300px)/2) */
+}
+
+.btn__mywork {
+    height: 30px;
+    width: 100px;
+
+    border-radius: 8px;
+
+    padding-bottom:
+}
+
+.portfolio_buttons {
+    background-color: var(--clr-accent);
+    border-style: none;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.portfolio_buttons:hover {
+    cursor: pointer;
+}
+
 
 
 
