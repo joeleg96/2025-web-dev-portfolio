@@ -447,7 +447,6 @@ header {
 
     margin-top: 50px;
     margin-bottom: 10px;
-    /* margin-left: calc((100%-300px)/2) */
 }
 
 .btn__mywork {
@@ -463,8 +462,9 @@ header {
     background-color: var(--clr-accent);
     border-style: none;
 
-    padding-top: 8px;
+    padding-top: 4px;
     padding-bottom: 8px;
+    font: var(--ff-primary)
 }
 
 .portfolio_buttons:hover {
