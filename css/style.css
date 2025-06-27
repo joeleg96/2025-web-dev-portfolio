@@ -47,6 +47,7 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 section {
@@ -172,8 +173,10 @@ header {
     height: 100%;
     flex-direction: column; 
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
 }
 
@@ -255,6 +258,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    right: 2.5rem;
 }
 
 
@@ -418,6 +422,9 @@ header {
 
 /* My Work */
 
+#work {
+    padding-bottom: 0;
+}
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
@@ -428,11 +435,6 @@ header {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     text-align: center;
-}
-
-.portfolio {
-    display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .portfolio__img {
@@ -450,7 +452,7 @@ header {
 }
 
 .btn__mywork {
-    height: 30px;
+    height: min-content;
     width: 100px;
 
     border-radius: 8px;
@@ -459,6 +461,7 @@ header {
 }
 
 .portfolio_buttons {
+    
     background-color: var(--clr-accent);
     border-style: none;
 
@@ -470,9 +473,6 @@ header {
 .portfolio_buttons:hover {
     cursor: pointer;
 }
-
-
-
 
 .portfolio__item {
     background: var(--clr-accent);
@@ -496,6 +496,23 @@ header {
     opacity: .85;
 }
 
+#btn {
+    background-color: var(--clr-accent);
+    font-family: var(--ff-primary);
+    font-weight: 600;
+    color: var(--clr-dark);
+    border: none;
+}
+
+#portfolio {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+#portfolio > div {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
 /* Footer */
 
 .footer {
@@ -504,6 +521,9 @@ header {
     text-align:center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
+    margin-top: 3rem;
+    width: 100vw;
+    margin-left: -4rem;
 }
 
 .footer a {
@@ -539,7 +559,6 @@ header {
 .social-list__link {
     padding: .5em;
 }
-
 
 /*Individual portfolio item styles */
 

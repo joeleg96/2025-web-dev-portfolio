@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d8fd5babe5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
     <title>Joel Eguiza Portfolio Website</title>
 </head>
@@ -35,10 +36,10 @@
         <!-- Introduction -->
         <section class="intro" id="home">
             <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Joel Eguiza </strong>
+                Hi, I'm <strong>Joel Eguiza </strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">Front-End Dev</p>
-            <img src="./images/joel-headshot-fence.JPG" alt="Joel image" class="intro__img">
+            <img src="./images/profile-black-white-square.JPG" alt="Joel image" class="intro__img">
         </section>
 
 
@@ -51,38 +52,30 @@
                     <p> Frontend web developer leveraging wordpress development experience to build a more intuitive user experience on the web.  I strive to create applications that leverage my skills to be a part of a fast-paced, quality-driven team to build better experiences on the web.</p>
             
                 </div>
-                <!--Close Service-->
-            
-                <!-- <div class="service">
-                    <h3>Elementor</h3>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sapiente aliquam aliquid temporibus qui
-                        asperiores eius corporis maiores esse libero?</p> -->
-            
-                </div>
+
                 <!--Close Service-->
             
                 <div class="service">
                     <h3>Technical Skills</h3>
-                    <p> CSS3, HTML5, GitHub, Bootstrap, Wordpress, Elementor, Adobe XD, Figma.</p>
-            
+                    <p> CSS3, HTML5, Javascript, jQuery, GitHub, Bootstrap, Wordpress, Elementor, Figma.</p>
                 </div>
                 <!--Close Service-->
                 
 
             </div>
-            <a href="#work" class="btn">My Work</a>
-            <a href="https://docs.google.com/document/d/1sy1cNfQM88vL_Gii_h0c6ZfOdw2dNcMU62RM7-0ONAg/edit?usp=sharing" class="btn">My Resume</a>
+            <a href="#work" class="btn" id="btn">My Work</a>
+            <a href="https://docs.google.com/document/d/1sy1cNfQM88vL_Gii_h0c6ZfOdw2dNcMU62RM7-0ONAg/edit?usp=sharing" class="btn" id="btn">My Resume</a>
 
         </section>
 
         <!--About Me-->
         <section class="about-me" id="about">
             <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">Designer & Developer</p>
+            <p class="section__subtitle section__subtitle--about">Front-End Web Developer</p>
 
             <div class="about-me__body">
                 <p> Graduate from the University of Houston with a degree in Biotechnology.</p>
-                <p> Self taught with skills in front end: CSS3, HTML5, GitHub, Bootstrap, Wordpress, Elementor, Adobe XD, Figma. Known as an innovative problem solver passionate about developing applications.</p>
+                <p> Self taught with skills in front end: CSS3, HTML5, Javascript, jQuery, GitHub, Bootstrap, Wordpress, Elementor, Figma. Known as an innovative problem solver who is passionate about developing applications.</p>
             </div>
 
             <img src="./images/joel-stairs.JPG" alt="Joel image 2" class="about-me__img">
@@ -92,74 +85,95 @@
         <section class="my-work" id="work">
             <h2 class="section__title">My Work</h2>
             <p class="section__subtitle--work">A selection of my range of work</p>
-
-            <div class="portfolio">
-                <!--Portfolio Item 01-->
-                <div class="porfolio_item1">
-                    <a href="https://joeleg96.github.io/Landing-Page/" class="portfolio__item1" target="_blank">
-                        <img src="./images/landing-page.PNG" alt="landing-page" class="portfolio__img">
-                    </a>
-                    <div class="button_wrapper">
-                        <a href="https://joeleg96.github.io/Landing-Page/" target="_blank" class="btn__mywork live_site1"><button class="portfolio_buttons">Live Site</button></a>
-
-                        <a href="https://github.com/joeleg96/Landing-Page" target="_blank" class="btn__mywork live_site1"><button class="portfolio_buttons">View Code</button></a>
-                    </div> <!--button_wrapper closing DIV-->
-                </div> <!--portolio_item1 closing DIV-->
-
-                <!--Portfolio Item 02-->
-                <div class="porfolio_item2">
-                    <a href="https://joeleg96.github.io/blogr-landing-page-main/" class="portfolio__item2" target="_blank">
-                        <img src="./images/blogr-landing-page.PNG" alt="blogr-landing-page" class="portfolio__img">
-                    </a>
-
-                    <div class="button_wrapper">
-                        <a href="https://joeleg96.github.io/blogr-landing-page-main/" target="_blank" class="btn__mywork live_site1"><button class="portfolio_buttons">Live Site</button></a>
-
-                        <a href="https://github.com/joeleg96/blogr-landing-page-main" target="_blank" class="btn__mywork live_site1"><button class="portfolio_buttons">View Code</button></a>
-                    </div> <!--button_wrapper closing DIV-->
-                </div> <!--portolio_item2 closing DIV-->
-
-                <!--Portfolio Item 03 -->
-                <div class="portfolio_item3">
-                    <a href="https://joeleg96.github.io/huddle-landing-page-with-alternating-feature-blocks-master/" class="portfolio__item3" target="_blank">
-                        <img src="./images/huddle-screenshot.PNG" alt="huddle-landing-page" class="portfolio__img">
-                    </a>
-
-                    <div class="button_wrapper">
-                        <a href="https://joeleg96.github.io/huddle-landing-page-with-alternating-feature-blocks-master/" target="_blank" class="btn__mywork live_site1"><button class="portfolio_buttons">Live Site</button></a>
-
-                        <a href="https://github.com/joeleg96/huddle-landing-page-with-alternating-feature-blocks-master" target="_blank" class="btn__mywork live_site1"><button class="portfolio_buttons">View Code</button></a>
-                    </div> <!--button_wrapper closing DIV-->
-                </div> <!--portolio_item closing DIV-->
-            
-
-                <!--Portfolio Item 04 -->
-                <div class="portfolio_item3">
-                    <a href="https://joeleg96.github.io/chat-app-css-illustration-master/" class="portfolio__item3" target="_blank">
-                        <img src="./images/chat-app-css-img.png" alt="huddle-landing-page" class="portfolio__img">
-                    </a>
-
-                    <div class="button_wrapper">
-                        <a href="https://joeleg96.github.io/chat-app-css-illustration-master/" target="_blank" class="btn__mywork live_site1"><button class="portfolio_buttons">Live Site</button></a>
-
-                        <a href="https://github.com/joeleg96/chat-app-css-illustration-master" target="_blank" class="btn__mywork live_site1"><button class="portfolio_buttons">View Code</button></a>
-                    </div> <!--button_wrapper closing DIV-->
-                </div> <!--portolio_item closing DIV-->
-            </div>
-            
             <br>
+
+              <!-- PORTFOLIO -->
+            <section id="portfolio">
+                <div class="album py-5">
+                <div class="container">
+      
+            <!-- Portfolio Item 01 -->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./images/tic-tac-toe-screenshot.PNG" height="300">
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://joeleg96.github.io/tic-tac-toe-game/" target="_blank"><button id="btn" type="button" class="btn btn-sm btn-outline-secondary">Live</button></a>
+                        <a href="https://github.com/joeleg96/tic-tac-toe-game" target="_blank"><button id="btn" type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Portfolio Item 02 -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./images/news-landing-page-screenshot.PNG" height="300">
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://joeleg96.github.io/news-homepage-main/" target="_blank"><button id="btn" type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                        <a href="https://github.com/joeleg96/news-homepage-main" target="_blank"><button id="btn" type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Portfolio Item 03 -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./images/sneakers-e-commerce-screenshot.PNG" height="300">
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://joeleg96.github.io/ecommerce-product-page-main/" target="_blank"><button id="btn" type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                        <a href="https://github.com/joeleg96/ecommerce-product-page-main" target="_blank"><button id="btn" type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Portfolio Item 04 -->
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./images/bmi-screenshot.PNG" height="300">
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://joeleg96.github.io/bmi-calculator/" target="_blank"><button id="btn" type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                        <a href="https://github.com/joeleg96/bmi-calculator" target="_blank"><button id="btn" type="button" class="btn btn-sm btn-outline-secondary">Code</button></a>
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
 
         <!--Footer-->
         <footer class="footer">
             <a href="mailto:joeleg96@gmail.com" class="footer-link">joeleg96@gmail.com</a>
             <ul class="social-list">
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/joeleg96">
+                    <a class="social-list__link" href="https://github.com/joeleg96" target="_blank">
                         <i class="fa-brands fa-square-github"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/joel-eguiza-dev/">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/joel-eguiza-dev/" target="_blank">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </li>
