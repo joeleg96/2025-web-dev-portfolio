@@ -296,6 +296,7 @@ header {
 /* My services section */
 
 .my-services {
+    width: 100vw;
     background-color: var(--clr-medium);
     background-image: url(../images/desk-tech-setup-web-development.jpg);
     background-size: cover;
@@ -426,6 +427,7 @@ header {
     padding-bottom: 0;
 }
 .my-work {
+    width: 100vw;
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
