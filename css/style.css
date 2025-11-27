@@ -458,8 +458,21 @@ header {
     width: 100px;
 
     border-radius: 8px;
+}
 
-    padding-bottom:
+/* Portfolio */
+
+.card-container {
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .card-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .portfolio_buttons {
